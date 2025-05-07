@@ -1,0 +1,72 @@
+{
+  "name": "codewave",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@codemirror/lang-cpp": "^6.0.2",
+    "@codemirror/lang-java": "^6.0.1",
+    "@codemirror/lang-javascript": "^6.1.1",
+    "@codemirror/lang-python": "^6.1.0",
+    "@google/generative-ai": "^0.24.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uiw/codemirror-theme-bespin": "^4.15.1",
+    "@uiw/codemirror-theme-dracula": "^4.15.1",
+    "@uiw/codemirror-theme-duotone": "^4.15.1",
+    "@uiw/codemirror-theme-github": "^4.15.1",
+    "@uiw/codemirror-theme-okaidia": "^4.15.1",
+    "@uiw/codemirror-theme-vscode": "^4.15.1",
+    "@uiw/codemirror-theme-xcode": "^4.15.1",
+    "@uiw/react-codemirror": "^4.15.1",
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "gemini-api": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.85.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.6.1",
+    "styled-components": "^5.3.6",
+    "svgo": "^3.3.2",
+    "tesseract.js": "^4.1.1",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "resolutions": {
+    "@remix-run/router": "1.15.3"
+  }
+}
